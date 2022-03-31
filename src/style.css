@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.Title {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Title h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.DataList {
+  width: 80%;
+}
+
+.DataList .DataObj {
+  margin-bottom: 20px;
+  box-shadow: 1px 0px 4px #201f1f;
+  padding: 30px 20px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  display: inline-block;
+  width: 45%;
+  word-wrap: break-word;
+}
+
+.FormOption{
+  display: inline-block;
+}
+.FormOption button{
+  width: 100%;
+  background-color: ghostwhite;
+}
+.FormOption h3{
+  width: 100%;
+  background-color: seashell;
+  text-align: center;
+}
+.FormOption p1{
+  width: 100%;
+}
+
+.FormCreate {
+  background-color: greenyellow;
+  box-shadow: 1px 0px 3px #474747;
+  border-radius: 5px;
+  padding: 15px 100px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin: 15px;
+  float: left;
+}
+.FormDelete {
+  background-color: lightpink;
+  box-shadow: 1px 0px 3px #474747;
+  border-radius: 5px;
+  padding: 15px 100px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  float: left;
+  margin: 15px;
+}
+

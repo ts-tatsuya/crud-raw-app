@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD APP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="Title">
+      <h2>CRUD APP</h2>
+      
+      <div class="DataList">
+        
+      </div>
+      <div class="FormOption">
+        <form class="FormCreate">
+          <h3>Create Data</h3>
+          <p1>(* is required)</p1>
+          <p>ID*</p>
+          <input type="text" placeholder="S001" id="inputID" required />
+          <p>First Name*</p>
+          <input id="inputFName" placeholder="mysample" required></input>
+          <p>Last Name*</p>
+          <input id="inputLName" placeholder="sample" required></input>
+          <p>Email*</p>
+          <input id="inputEmail" placeholder="sample@sample.sample" type="email" required></input>
+          <p>Phone*</p>
+          <input id="inputPhone" placeholder="+81234567890" type="text" pattern="[+0-9]{1}[0-9]{2,20}" required></input>
+          <p>Address*</p>
+          <textarea id="inputAddress" placeholder="sample street" required></textarea>
+          <br/>
+          <button id="submitButton" type="submit">Submit</button>
+        
+        </form>
+        <form class="FormDelete">
+          <h3>Delete Data</h3>
+          <p>Data ID to Delete</p>
+          <input type="text" placeholder="S001" id="inputIDDel" />
+          <br/>
+          <button id="submitButton" type="submit">Delete</button>
+        </form>
+      </div>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
